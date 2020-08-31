@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 234, 229);
+  
+}
+header .sale{
+    letter-spacing: 2px;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;  
+    margin-left: 100px;
+}
+ #quote{
+    color: rgb(255, 203, 203);
+    font-weight: 500;
+}
+header{
+    
+    color: white;
+    padding: 10px;
+    background-color: rgb(97, 96, 94);
+}
+.major{
+    margin-left: 300px;
+    display: inline-block;
+    /* padding-left: 20px; */
+}
+.major span{
+    text-transform: uppercase;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+i{
+    display: inline-block;
+    /* color: red; */
+    padding-left: 10px;
+}
+.cart{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 120px;
+}
+.logo{
+    display: -webkit-box;
+    
+}
+.logo-image{
+    /* -webkit-box-pack: center; */
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top:22px;
+    color: rgb(134, 62, 62);
+    margin-left: auto;
+    margin-right: auto;
+    background: url('apple2.png') no-repeat;
+    background-position:-25px;
+    background-size: 30%;
+   
+}
+.call{
+    /* display: inline-block; */
+    /* position: relative; */
+    position: absolute;
+    top: 39px;
+    left: 75px;
+    font-size: 20px;
+    padding-left: 30px;
+    /* margin-top: 30px; */
+}
+.call i{
+    padding-right: 10px;
+}
+.branding{
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 34px;
+    right: 140px;
+}
+
+.text{
+    width: 200px;
+    height: 25px;
+}
+.search button{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(134, 62, 62);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.search button i{
+    color: white;
+    text-align: center;
+    margin-left: -10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 74px;
+    /* margin-top: 13px; */
+   font-weight: 400;
+   
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav{
+    background-color: rgb(134, 62, 62);
+    margin-top: 20px;
+    margin-bottom: -16px;
+}
+nav ul li:hover{
+    background-color:rgb(196, 196, 196);
+    color: black;
+}
+
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    /* margin-top: -22px; */
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    
+    border-radius: 0 3px 3px 0;
+    
+  }
+  .next {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+  }
+  .prev{
+      left: 145px;
+      background-color: rgba(0,0,0,0.8);
+  }
+  .next{
+    right: 145px;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev:hover, .next:hover {
+    
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .active, .dot:hover {
+  background-color: #717171;
+}
+.mySlides {
+    /* display: none; */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .mySlides img{
+      box-shadow: 1px 1px 10px black;
+  }
+  .inner{
+    text-align: center;
+    width: 80vw;
+    height: 98vh;
+    background-color: rgba(119, 119, 119, 0.4);
+    top: 0;
+    left: 145px;
+    /* margin-left: 154px; */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+   /* margin-left: 100px; */
+}
+.container{
+    margin-top: 70px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    /* box-sizing: border-box; */
+}
+.details{
+    width: 49%;
+    float: left;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+ .details img{
+    width: 49%;
+    float: left;
+    height: 260px;
+}
+ 
+#grocery{
+    clear: left;
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    color:  rgb(148, 26, 26);
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(250, 229, 37, 0.822);
+}
+  
+.off{
+    display: inline-block;
+    /* width: 50%; */
+    margin-left: 10px;
+    color:  rgb(134, 62, 62);
+    margin-top: 5px;
+    font-weight: 400;
+    font-size:25px;
+    color: white;
+}
+ 
+.about p{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* line-height: 130%; */
+    /* padding: 10px; */
+    margin-left: 10px;
+    color:  rgb(15, 15, 15);
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 40%;
+    margin-top: 10px;
+    color: white;
+}
+
+.fir{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color:rgb(65, 15, 15) ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sec{
+    /* margin-top: 10px; */
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;  
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:rgb(65, 15, 15) ;
+}
+.second .about{
+    height:261px;
+}
+.about{
+    background-color:rgb(134, 62, 62) ;
+    color: white;
+}
+.footer{
+    margin-top: 470px;
+    clear: both;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    background-color:rgb(97, 96, 94);
+    color: white;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 2px solid rgb(70, 70, 70);
+}
+.modal-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(165, 156, 156, 0.8);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+.login,.signup{
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    top: 40%;
+    left: 36%;
+    padding: 60px;
+    border: 2px solid black;
+}
+.log,.sign{
+    padding: 20px;
+    font-size: 40px;
+}
+.login-btn,.signup-btn{
+    width: 30%;
+    padding: 10px;
+   margin-left: 110px;
+   background-color: black;
+   color: white;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   font-size: 20px;
+}
+.modal-overlay-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(165, 156, 156, 0.8);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
