@@ -271,7 +271,7 @@ nav ul li:hover{
     /* padding: 10px; */
     margin-left: 10px;
     color:  rgb(15, 15, 15);
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 20px;
     width: 40%;
     margin-top: 10px;
@@ -306,6 +306,7 @@ nav ul li:hover{
     height:261px;
 }
 .about{
+    height:261px;
     background-color:rgb(134, 62, 62) ;
     color: white;
 }
