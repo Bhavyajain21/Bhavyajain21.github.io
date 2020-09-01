@@ -156,17 +156,18 @@ nav ul li:hover{
     right: 0;
     /* border-radius: 3px 0 0 3px; */
   }
+ 
   .prev{
-      left: 145px;
-      background-color: rgba(0,0,0,0.8);
-  }
-  .next{
-    right: 145px;
+    top: 45%;
+    /* left: 145px; */
     background-color: rgba(0,0,0,0.8);
-  }
-  .prev:hover, .next:hover {
+}
+.next{
+    top: 45%;
     
-  }
+  /* right: 145px; */
+  background-color: rgba(0,0,0,0.8);
+}
   .dot {
     cursor: pointer;
     height: 15px;
@@ -188,22 +189,30 @@ nav ul li:hover{
     text-align: center;
     
   }
+  .slideshow-container{
+      width: 80vw;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+  }
   .mySlides img{
       box-shadow: 1px 1px 10px black;
   }
   .inner{
     text-align: center;
-    width: 80vw;
-    height: 98vh;
+    width: 100vw;
+    height: 94vh;
     background-color: rgba(119, 119, 119, 0.4);
     top: 0;
-    left: 145px;
+    left: 0;
+    /* left: 145px; */
     /* margin-left: 154px; */
     position: absolute;
     margin-left: auto;
     margin-right: auto;
    /* margin-left: 100px; */
 }
+
 .container{
     margin-top: 70px;
     width: 90%;
@@ -222,7 +231,7 @@ nav ul li:hover{
  .details img{
     width: 49%;
     float: left;
-    height: 260px;
+    /* height: 260px; */
 }
  
 #grocery{
@@ -278,6 +287,7 @@ nav ul li:hover{
     border: none;
     outline: none;
     cursor: pointer;
+    margin-top: -15px;
 }
 
 .sec{
@@ -290,6 +300,7 @@ nav ul li:hover{
     outline: none;
     cursor: pointer;
     background-color:rgb(65, 15, 15) ;
+    margin-top: -15px;
 }
 .second .about{
     height:261px;
