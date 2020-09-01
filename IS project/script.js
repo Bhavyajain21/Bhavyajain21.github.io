@@ -1,3 +1,25 @@
+var log=document.querySelector(".logged");
+var sign=document.querySelector(".signed");
+var modal=document.querySelector(".modal-overlay");
+var modal1=document.querySelector(".modal-overlay-1");
+var close=document.querySelector(".login-btn");
+var cloe=document.querySelector(".signup-btn");
+log.addEventListener("click",function(){
+  modal.classList.add("show");
+});
+close.addEventListener("click",function(){
+  modal.classList.remove("show");
+})
+sign.addEventListener("click",function(){
+  modal1.classList.add("show");
+});
+cloe.addEventListener("click",function(){
+  modal1.classList.remove("show");
+})
+
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,21 +48,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-    var log=document.querySelector(".logged");
-    var sign=document.querySelector(".signed");
-    var modal=document.querySelector(".modal-overlay");
-    var modal1=document.querySelector(".modal-overlay-1");
-    var close=document.querySelector(".login-btn");
-    var cloe=document.querySelector(".signup-btn");
-    log.addEventListener("click",function(){
-      modal.classList.add("show");
-    });
-    close.addEventListener("click",function(){
-      modal.classList.remove("show");
-    })
-    sign.addEventListener("click",function(){
-      modal1.classList.add("show");
-    });
-    cloe.addEventListener("click",function(){
-      modal1.classList.remove("show");
-    })
+  
+    // var addborder=document.querySelector(".details");
+    // var apply=addborder.querySelector(".about");
+    // var final=apply.querySelector("#grocery");
+    // addborder.addEventListener("mouseover",function(){
+    //   final.classList.add("show-border");
+    // });
